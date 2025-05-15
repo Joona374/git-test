@@ -86,13 +86,14 @@ git commit
 This command will open the selected text editor, which contains the commented result of the work of the ```git status``` and another empty line from above. You can delete these comments and dial your message or leave them to reminder that you are fixing.
 For an even more detailed reminder, you can get the argument ```-v``` in the command```git comit```, which will lead to the comment to the Delta/DIFF changes and you can definitely see all the changes that have been made.
 
-Include diff in the commit editor:
+## Include diff in the commit editor:
 ```
 git commit -v
 ```
 
-Or commit with an inline message:
+## Or commit with an inline message:
 ```
 git commit -m "Fix benchmarks for speed"
 ```
+
 Each time a commit is created, a picture of the snapshot of the entire project is created, which you can recover later or with which you can compare the current state.
